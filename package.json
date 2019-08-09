@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "main": "node index.js",
     "test": "echo \"No test specified\""
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "parse-duration": "^0.1.1"
   }
 }
