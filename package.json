@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "main": "./index.js",
-    "test": "echo \"No test specified\""
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "parse-duration": "^0.1.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
   }
 }
