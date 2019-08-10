@@ -1,0 +1,4 @@
+node_modules
+lib
+babel.config.js
+src/*.test.js
