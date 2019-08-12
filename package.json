@@ -1,7 +1,7 @@
 {
   "name": "@paulojeronimo/npm-package-test",
   "version": "1.0.9",
-  "description": "",
+  "description": "A simple npm package test",
   "main": "./lib/index.js",
   "scripts": {
     "main": "./src/index.js",
@@ -9,8 +9,9 @@
     "compile": "mkdir -p lib && babel src -d lib",
     "prepublish": "npm run compile"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["babel","example"],
+  "author": "Paulo Jeronimo <paulojeronimo@gmail.com> (https://paulojeronimo.github.io)",
+  "repository": "github:paulojeronimo/npm-package-test",
   "license": "ISC",
   "publishConfig": {
     "access": "public"
