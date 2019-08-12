@@ -2,10 +2,12 @@
   "name": "@paulojeronimo/npm-package-test",
   "version": "1.0.8",
   "description": "",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "main": "./src/index.js",
-    "test": "jest"
+    "test": "jest",
+    "compile": "mkdir -p lib && babel src -d lib",
+    "prepublish": "npm run compile"
   },
   "keywords": [],
   "author": "",
